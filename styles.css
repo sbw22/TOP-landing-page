@@ -1,0 +1,75 @@
+body{
+display: flex;
+flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: #1f2937;
+    
+
+}
+
+.cone{
+    display: flex;
+    border: solid red;
+    flex: 1 0 auto;
+    
+}
+
+.ctwo{
+
+}
+
+.cthree{
+
+}
+
+.cfour{
+
+}
+
+.footer{
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 16px;
+}
+
+.headerpartone{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.headerparttwo{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cone1{
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 1 0;
+    
+    
+}
+
+.cone2{
+    border: solid blue;
+}
+
+button{
+    max-width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
