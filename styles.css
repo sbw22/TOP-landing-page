@@ -1,40 +1,15 @@
 body{
 display: flex;
 flex-direction: column;
-
+font-family: Roboto, "courier new";
 }
 
+/* header */
 .header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
     background-color: #1f2937;
-    
-
-}
-
-.cone{
-    display: flex;
-    border: solid red;
-    flex: 1 0 auto;
-    
-}
-
-.ctwo{
-
-}
-
-.cthree{
-
-}
-
-.cfour{
-
-}
-
-.footer{
-
 }
 
 ul{
@@ -53,23 +28,145 @@ ul{
     font-size: 18px;
 }
 
-.cone1{
-    border: solid blue;
+
+
+.cthree{
+    border: solid teal;
+    padding: 100px;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex: 1 1 0;
-    
+    justify-content: center;
+    align-items: center;
     
 }
-
-.cone2{
+.quote{
+    border: solid red;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.quoter{
     border: solid blue;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 900;
+}
+.quotecontainer{
+    border: solid yellow;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
 }
 
+
+.cfour{
+
+}
+
+.footer{
+
+}
+
+
+
+
+    
+    
+
+
+
+ /* content 1 */
+
+.cone{
+    display: flex;
+    border: solid red;
+    flex: 1 1 auto;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
 button{
     max-width: 100px;
     background-color: blue;
     color: white;
     border-radius: 5px;
 }
+.cone1{
+    border: solid blue;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.cone1a{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    border: solid green;
+    
+}
+.cone1b{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+    border: solid green;
+}
+.cone2{
+    border: solid blue;
+    background-color: gray;
+    color: darkgray;
+    max-width: 400px;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+
+/* content two */
+.ctwo{
+    border: solid orange;
+    display: flex; 
+    
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 75px 100px;
+}
+.box{
+display: flex;
+flex: 1 1 auto;
+border: solid green 4px;
+padding: 25px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+color: gray;
+font-size: 16px;
+max-width: 150px;
+}
+
+.boxa{
+    border: solid #3882f6 4px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+      
+}
+
+.ctwoheader{
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    border: solid brown;
+    display: flex;
+    justify-content:center;
+    justify-self: center;
+}
+
+
