@@ -1,7 +1,9 @@
 body{
 display: flex;
+margin: 0px;
 flex-direction: column;
 font-family: Roboto, "courier new";
+
 }
 
 /* header */
@@ -27,98 +29,53 @@ ul{
     color: #e5e7eb;
     font-size: 18px;
 }
-
-
-
-.cthree{
-    border: solid teal;
-    padding: 100px;
-    background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.quote{
-    border: solid red;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 100;
-}
-.quoter{
-    border: solid blue;
-    align-items: flex-end;
-    justify-content: flex-end;
-    align-self: flex-end;
-    font-size: 26px;
-    font-weight: 900;
-}
-.quotecontainer{
-    border: solid yellow;
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-}
-
-
-.cfour{
-
-}
-
-.footer{
-
-}
-
-
-
-
-    
-    
-
-
-
  /* content 1 */
 
 .cone{
     display: flex;
-    border: solid red;
+    
     flex: 1 1 auto;
     flex-direction: row;
     background-color: #1f2937;
     justify-content: center;
     align-content: center;
     padding: 50px;
+    padding-top: 100px;
 }
-button{
+.cone1button{
     max-width: 100px;
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    padding: 5px 20px;
+    border: 2px solid #1f2937;
+    margin-top: 4px;
 }
 .cone1{
-    border: solid blue;
+    
     display: flex;
     flex: 1 1 auto;
     justify-content: flex-start;
     flex-wrap: wrap;
     max-width: 400px;
+    margin-right: 80px;
+    
 }
 .cone1a{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    border: solid green;
+    
     
 }
 .cone1b{
     font-size: 18px;
     color: #e5e7eb;
     flex-wrap: wrap;
-    border: solid green;
+    
 }
 .cone2{
-    border: solid blue;
+    
     background-color: gray;
     color: darkgray;
     max-width: 400px;
@@ -130,18 +87,38 @@ button{
 
 /* content two */
 .ctwo{
-    border: solid orange;
-    display: flex; 
+    
+    display: flex;
+    flex-direction: column;
     
     flex: 1 1 auto;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: center;
     padding: 50px 100px 75px 100px;
 }
+
+
+
+.boxcontainer{
+    display: flex;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    column-gap: 20px;
+    
+    
+    
+    
+    
+}
+
 .box{
 display: flex;
 flex: 1 1 auto;
-border: solid green 4px;
+
 padding: 25px;
 justify-content: center;
 align-items: center;
@@ -151,22 +128,123 @@ font-size: 16px;
 max-width: 150px;
 }
 
+
 .boxa{
     border: solid #3882f6 4px;
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    
       
 }
 
 .ctwoheader{
+    display: flex;
     font-size: 36px;
     font-weight: 800;
-    padding-bottom: 50px;
-    border: solid brown;
-    display: flex;
+    padding-bottom: 10px;
+    
     justify-content:center;
-    justify-self: center;
+    align-self: center;
+
 }
 
 
+
+/* content three */
+.cthree{
+    
+    padding: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.quoter{
+    
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 900;
+}
+.quotecontainer{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+/* content four */
+.cfour{
+    display: flex;
+    flex: 1 1 auto;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: white;
+    color: white;
+}
+.cfourcontentcontainer{
+    
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    
+    width: 1000px;
+    height: 60px;
+}
+.cfourcontent1{
+    
+    margin-left: 75px;
+}
+.cfourcontent1a{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.cfourcontent1b{
+    font-weight: 500;
+}
+.cfourbutton{
+    
+    margin-left: auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    margin-right: 75px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.buttonlink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
